@@ -16,7 +16,7 @@ except Exception as err:
     print("Connection Error with {0}".format(err))
     sys.exit(1)
 
-print(dev.facts[hostname])
+print(dev.facts["hostname"])
 pprint(dev.facts)
 
 dev.close()
