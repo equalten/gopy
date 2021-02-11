@@ -1,4 +1,5 @@
 from jnpr.junos import Device
+from lxml import etree
 
 dev = Device(host='172.27.14.72', user='jun', passwd='jun2per')
 
