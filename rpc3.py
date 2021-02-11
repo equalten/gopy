@@ -7,7 +7,5 @@ dev = Device(host='172.27.14.72', user='jun', passwd='jun2per')
 dev.open()
 
 inter_info = dev.rpc.get_interface_information()
-dom = xml.dom.minidom.parse(inter_info)
-print(dom.toprettyxml())
-
+print(etree.tostring(inter_info, method='xml'))
 dev.close()
