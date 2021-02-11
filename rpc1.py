@@ -1,3 +1,6 @@
+# RPC method를 이용해서 cli output 정보 가져오기
+# terse, interface_name 등 옵션 주는 방법 확인
+
 from jnpr.junos import Device
 from lxml import etree
 
