@@ -9,7 +9,8 @@ with Device(host='172.27.14.72', user='jun', passwd='jun2per', normalize=True) a
 #    print(etree.tostring(rsp, encoding='unicode', pretty_print=True))
 #    print("#################")
     i = 0
-    for item in rsp:
+    while True:
         print(rsp.xpath(".//address-family[address-family-name='inet']/interface-address/ifa-local")[i].text)
         i += 1
+        
 
