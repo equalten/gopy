@@ -1,0 +1,17 @@
+### 1. /var/db/scripts/op 에 int_err.py upload
+### 2. 아래 configuration 설정
+set system scripts language python
+set system scripts op file int_err.py
+### 3. op int_err.py 로 script 실행
+
+### output
+### RX Errors에는 모든 rx error의 합, TX Errors에는 모든 tx error의 합이 display 됨
+### error가 없는 interface는 display 되지 않고, error가 있는 interface만 display 함
+
+jun@IBR_2> op int_err.py
+ Interface      RX Errors      TX Errors
+============+==============+==============
+xe-0/0/0                  0             32
+xe-0/0/1                  0             32
+xe-0/0/2                  0             29
+xe-0/0/3                  0             30

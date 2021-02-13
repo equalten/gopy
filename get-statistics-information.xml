@@ -1,0 +1,1745 @@
+<statistics>
+  <tcp>
+    <packets-sent>
+53768787
+</packets-sent>
+    <sent-data-packets>
+9170822
+</sent-data-packets>
+    <data-packets-bytes>
+3057900646
+</data-packets-bytes>
+    <sent-data-packets-retransmitted>
+1580
+</sent-data-packets-retransmitted>
+    <retransmitted-bytes>
+282855
+</retransmitted-bytes>
+    <sent-resends-by-mtu-discovery>
+0
+</sent-resends-by-mtu-discovery>
+    <sent-ack-only-packets>
+40496600
+</sent-ack-only-packets>
+    <sent-packets-delayed>
+12564706
+</sent-packets-delayed>
+    <sent-urg-only-packets>
+12
+</sent-urg-only-packets>
+    <sent-window-probe-packets>
+428
+</sent-window-probe-packets>
+    <sent-window-update-packets>
+2557934
+</sent-window-update-packets>
+    <sent-control-packets>
+9782307
+</sent-control-packets>
+    <packets-received>
+117550923
+</packets-received>
+    <received-acks>
+7705744
+</received-acks>
+    <acks-bytes>
+3057903404
+</acks-bytes>
+    <received-duplicate-acks>
+79285492
+</received-duplicate-acks>
+    <received-acks-for-unsent-data>
+0
+</received-acks-for-unsent-data>
+    <packets-received-in-sequence>
+25079475
+</packets-received-in-sequence>
+    <in-sequence-bytes>
+1220034265
+</in-sequence-bytes>
+    <received-completely-duplicate-packet>
+22870614
+</received-completely-duplicate-packet>
+    <duplicate-in-bytes>
+142252
+</duplicate-in-bytes>
+    <received-old-duplicate-packets>
+6
+</received-old-duplicate-packets>
+    <received-packets-with-some-dupliacte-data>
+61
+</received-packets-with-some-dupliacte-data>
+    <some-duplicate-in-bytes>
+3541
+</some-duplicate-in-bytes>
+    <received-out-of-order-packets>
+724
+</received-out-of-order-packets>
+    <out-of-order-in-bytes>
+352199
+</out-of-order-in-bytes>
+    <received-packets-of-data-after-window>
+0
+</received-packets-of-data-after-window>
+    <bytes>
+0
+</bytes>
+    <received-window-probes>
+0
+</received-window-probes>
+    <received-window-update-packets>
+579
+</received-window-update-packets>
+    <packets-received-after-close>
+47
+</packets-received-after-close>
+    <received-discarded-for-bad-checksum>
+0
+</received-discarded-for-bad-checksum>
+    <received-discarded-for-bad-header-offset>
+0
+</received-discarded-for-bad-header-offset>
+    <received-discarded-because-packet-too-short>
+0
+</received-discarded-because-packet-too-short>
+    <connection-requests>
+1535096
+</connection-requests>
+    <connection-accepts>
+8649
+</connection-accepts>
+    <bad-connection-attempts>
+115
+</bad-connection-attempts>
+    <listen-queue-overflows>
+0
+</listen-queue-overflows>
+    <connections-established>
+11476
+</connections-established>
+    <connections-closed>
+1551361
+</connections-closed>
+    <drops>
+465
+</drops>
+    <connections-updated-rtt-on-close>
+710
+</connections-updated-rtt-on-close>
+    <connections-updated-variance-on-close>
+710
+</connections-updated-variance-on-close>
+    <connections-updated-ssthresh-on-close>
+253
+</connections-updated-ssthresh-on-close>
+    <embryonic-connections-dropped>
+1531782
+</embryonic-connections-dropped>
+    <segments-updated-rtt>
+7697332
+</segments-updated-rtt>
+    <attempts>
+8665545
+</attempts>
+    <retransmit-timeouts>
+54750
+</retransmit-timeouts>
+    <connections-dropped-by-retransmit-timeout>
+73
+</connections-dropped-by-retransmit-timeout>
+    <persist-timeouts>
+1
+</persist-timeouts>
+    <connections-dropped-by-persist-timeout>
+0
+</connections-dropped-by-persist-timeout>
+    <keepalive-timeouts>
+56420615
+</keepalive-timeouts>
+    <keepalive-probes-sent>
+56414006
+</keepalive-probes-sent>
+    <keepalive-connections-dropped>
+6609
+</keepalive-connections-dropped>
+    <ack-header-predictions>
+1606972
+</ack-header-predictions>
+    <data-packet-header-predictions>
+20755936
+</data-packet-header-predictions>
+    <syncache-entries-added>
+8722
+</syncache-entries-added>
+    <retransmitted>
+206
+</retransmitted>
+    <dupsyn>
+259
+</dupsyn>
+    <dropped>
+3
+</dropped>
+    <completed>
+8649
+</completed>
+    <bucket-overflow>
+0
+</bucket-overflow>
+    <cache-overflow>
+0
+</cache-overflow>
+    <reset>
+10
+</reset>
+    <stale>
+55
+</stale>
+    <aborted>
+0
+</aborted>
+    <badack>
+0
+</badack>
+    <unreach>
+0
+</unreach>
+    <zone-failures>
+0
+</zone-failures>
+    <cookies-sent>
+0
+</cookies-sent>
+    <cookies-received>
+0
+</cookies-received>
+    <sack-recovery-episodes>
+4
+</sack-recovery-episodes>
+    <segment-retransmits>
+4
+</segment-retransmits>
+    <byte-retransmits>
+1605
+</byte-retransmits>
+    <sack-options-received>
+154
+</sack-options-received>
+    <sack-opitions-sent>
+705
+</sack-opitions-sent>
+    <sack-scoreboard-overflow>
+0
+</sack-scoreboard-overflow>
+    <acks-sent-in-response-but-not-exact-rsts>
+0
+</acks-sent-in-response-but-not-exact-rsts>
+    <acks-sent-in-response-to-syns-on-established-connections>
+0
+</acks-sent-in-response-to-syns-on-established-connections>
+    <rcv-packets-dropped-due-to-bad-address>
+0
+</rcv-packets-dropped-due-to-bad-address>
+    <out-of-sequence-segment-drops>
+0
+</out-of-sequence-segment-drops>
+    <rst-packets>
+8240581
+</rst-packets>
+    <icmp-packets-ignored>
+2
+</icmp-packets-ignored>
+    <send-packets-dropped>
+0
+</send-packets-dropped>
+    <rcv-packets-dropped>
+0
+</rcv-packets-dropped>
+    <outgoing-segments-dropped>
+0
+</outgoing-segments-dropped>
+  </tcp>
+  <udp>
+    <datagrams-received>
+5827205
+</datagrams-received>
+    <datagrams-with-incomplete-header>
+0
+</datagrams-with-incomplete-header>
+    <datagrams-with-bad-datalength-field>
+0
+</datagrams-with-bad-datalength-field>
+    <datagrams-with-bad-checksum>
+0
+</datagrams-with-bad-checksum>
+    <datagrams-dropped-due-to-no-socket>
+180951
+</datagrams-dropped-due-to-no-socket>
+    <broadcast-or-multicast-datagrams-dropped-due-to-no-socket>
+2952264
+</broadcast-or-multicast-datagrams-dropped-due-to-no-socket>
+    <datagrams-dropped-due-to-full-socket-buffers>
+0
+</datagrams-dropped-due-to-full-socket-buffers>
+    <datagrams-not-for-hashed-pcb>
+0
+</datagrams-not-for-hashed-pcb>
+    <datagrams-delivered>
+2693990
+</datagrams-delivered>
+    <datagrams-output>
+2439520
+</datagrams-output>
+  </udp>
+  <ip>
+    <packets-received>
+122120258
+</packets-received>
+    <bad-header-checksums>
+0
+</bad-header-checksums>
+    <packets-with-size-smaller-than-minimum>
+0
+</packets-with-size-smaller-than-minimum>
+    <packets-with-data-size-less-than-datalength>
+0
+</packets-with-data-size-less-than-datalength>
+    <packets-with-header-length-less-than-data-size>
+0
+</packets-with-header-length-less-than-data-size>
+    <packets-with-data-length-less-than-headerlength>
+0
+</packets-with-data-length-less-than-headerlength>
+    <packets-with-incorrect-version-number>
+0
+</packets-with-incorrect-version-number>
+    <packets-destined-to-dead-next-hop>
+0
+</packets-destined-to-dead-next-hop>
+    <fragments-received>
+54228
+</fragments-received>
+    <fragments-dropped-due-to-outofspace-or-dup>
+0
+</fragments-dropped-due-to-outofspace-or-dup>
+    <fragments-dropped-due-to-queueoverflow>
+0
+</fragments-dropped-due-to-queueoverflow>
+    <fragments-dropped-after-timeout>
+15
+</fragments-dropped-after-timeout>
+    <packets-reassembled-ok>
+21263
+</packets-reassembled-ok>
+    <packets-for-this-host>
+126082512
+</packets-for-this-host>
+    <packets-for-unknown-or-unsupported-protocol>
+169174
+</packets-for-unknown-or-unsupported-protocol>
+    <packets-forwarded>
+123141
+</packets-forwarded>
+    <packets-not-forwardable>
+0
+</packets-not-forwardable>
+    <redirects-sent>
+368
+</redirects-sent>
+    <packets-sent-from-this-host>
+124104346
+</packets-sent-from-this-host>
+    <packets-sent-with-fabricated-ip-header>
+568656
+</packets-sent-with-fabricated-ip-header>
+    <output-packets-dropped-due-to-no-bufs>
+0
+</output-packets-dropped-due-to-no-bufs>
+    <output-packets-discarded-due-to-no-route>
+6907
+</output-packets-discarded-due-to-no-route>
+    <output-datagrams-fragmented>
+8838
+</output-datagrams-fragmented>
+    <fragments-created>
+21507
+</fragments-created>
+    <datagrams-that-can-not-be-fragmented>
+0
+</datagrams-that-can-not-be-fragmented>
+    <packets-with-bad-options>
+0
+</packets-with-bad-options>
+    <packets-with-options-handled-without-error>
+160939
+</packets-with-options-handled-without-error>
+    <strict-source-and-record-route-options>
+0
+</strict-source-and-record-route-options>
+    <loose-source-and-record-route-options>
+0
+</loose-source-and-record-route-options>
+    <record-route-options>
+0
+</record-route-options>
+    <timestamp-options>
+0
+</timestamp-options>
+    <timestamp-and-address-options>
+0
+</timestamp-and-address-options>
+    <timestamp-and-prespecified-address-options>
+0
+</timestamp-and-prespecified-address-options>
+    <option-packets-dropped-due-to-rate-limit>
+0
+</option-packets-dropped-due-to-rate-limit>
+    <router-alert-options>
+160939
+</router-alert-options>
+    <multicast-packets-dropped>
+0
+</multicast-packets-dropped>
+    <packets-dropped>
+0
+</packets-dropped>
+    <transit-re-packets-dropped-on-mgmt-interface>
+7242
+</transit-re-packets-dropped-on-mgmt-interface>
+    <packets-used-first-nexthop-in-ecmp-unilist>
+0
+</packets-used-first-nexthop-in-ecmp-unilist>
+    <incoming-ttpoip-packets-received>
+1898389
+</incoming-ttpoip-packets-received>
+    <incoming-ttpoip-packets-dropped>
+0
+</incoming-ttpoip-packets-dropped>
+    <outgoing-ttpoip-packets-sent>
+2152614
+</outgoing-ttpoip-packets-sent>
+    <outgoing-ttpoip-packets-dropped>
+0
+</outgoing-ttpoip-packets-dropped>
+    <incoming-rawip-packets-dropped-no-socket-buffer>
+0
+</incoming-rawip-packets-dropped-no-socket-buffer>
+    <incoming-virtual-node-packets-delivered>
+0
+</incoming-virtual-node-packets-delivered>
+  </ip>
+  <icmp>
+    <drops-due-to-rate-limit>
+0
+</drops-due-to-rate-limit>
+    <calls-to-icmp-error>
+199130
+</calls-to-icmp-error>
+    <errors-not-generated-because-old-message-was-icmp>
+0
+</errors-not-generated-because-old-message-was-icmp>
+    <histogram>
+      <type-of-histogram>
+Output Histogram
+</type-of-histogram>
+      <icmp-echo-reply>
+2453
+</icmp-echo-reply>
+      <destination-unreachable>
+180934
+</destination-unreachable>
+      <icmp-echo>
+1517
+</icmp-echo>
+      <time-exceeded>
+18184
+</time-exceeded>
+    </histogram>
+    <messages-with-bad-code-fields>
+0
+</messages-with-bad-code-fields>
+    <messages-less-than-the-minimum-length>
+0
+</messages-less-than-the-minimum-length>
+    <messages-with-bad-checksum>
+0
+</messages-with-bad-checksum>
+    <messages-with-bad-source-address>
+0
+</messages-with-bad-source-address>
+    <messages-with-bad-length>
+0
+</messages-with-bad-length>
+    <echo-drops-with-broadcast-or-multicast-destinaton-address>
+0
+</echo-drops-with-broadcast-or-multicast-destinaton-address>
+    <timestamp-drops-with-broadcast-or-multicast-destination-address>
+0
+</timestamp-drops-with-broadcast-or-multicast-destination-address>
+    <histogram>
+      <type-of-histogram>
+Input Histogram
+</type-of-histogram>
+      <icmp-echo-reply>
+1401
+</icmp-echo-reply>
+      <destination-unreachable>
+5618
+</destination-unreachable>
+      <icmp-echo>
+2453
+</icmp-echo>
+      <time-exceeded>
+2236
+</time-exceeded>
+    </histogram>
+    <message-responses-generated>
+2453
+</message-responses-generated>
+  </icmp>
+  <igmp>
+    <messages-received>
+160851
+</messages-received>
+    <messages-received-with-too-few-bytes>
+0
+</messages-received-with-too-few-bytes>
+    <messages-received-with-bad-checksum>
+0
+</messages-received-with-bad-checksum>
+    <membership-queries-received>
+0
+</membership-queries-received>
+    <membership-queries-received-with-invalid-fields>
+0
+</membership-queries-received-with-invalid-fields>
+    <membership-reports-received>
+108
+</membership-reports-received>
+    <membership-reports-received-with-invalid-fields>
+0
+</membership-reports-received-with-invalid-fields>
+    <membership-reports-received-for-groups-to-which-we-belong>
+90
+</membership-reports-received-for-groups-to-which-we-belong>
+    <membership-reports-sent>
+237
+</membership-reports-sent>
+  </igmp>
+  <raw-interface>
+    <raw-packets-transmitted>
+0
+</raw-packets-transmitted>
+    <ppoe-packets-transmitted>
+0
+</ppoe-packets-transmitted>
+    <isdn-packets-transmitted>
+0
+</isdn-packets-transmitted>
+    <dialer-packets-transmitted>
+0
+</dialer-packets-transmitted>
+    <ppp-packets-transmitted-to-pppd>
+0
+</ppp-packets-transmitted-to-pppd>
+    <ppp-packets-transmitted-to-jppd>
+0
+</ppp-packets-transmitted-to-jppd>
+    <igmpl2-packets-transmitted>
+0
+</igmpl2-packets-transmitted>
+    <mldl2-packets-transmitted>
+0
+</mldl2-packets-transmitted>
+    <fibre-channel-packets-transmitted>
+0
+</fibre-channel-packets-transmitted>
+    <fip-packets-transmitted>
+0
+</fip-packets-transmitted>
+    <stp-packets-transmitted>
+0
+</stp-packets-transmitted>
+    <lacp-packets-transmitted>
+0
+</lacp-packets-transmitted>
+    <vccp-packets-transmitted>
+0
+</vccp-packets-transmitted>
+    <faboam-packets-transmitted>
+0
+</faboam-packets-transmitted>
+    <output-drops-due-to-transmit-error>
+0
+</output-drops-due-to-transmit-error>
+    <mpu-packets-transmitted>
+0
+</mpu-packets-transmitted>
+    <pppoe-packets-received>
+0
+</pppoe-packets-received>
+    <isdn-packets-received>
+0
+</isdn-packets-received>
+    <dialer-packets-received>
+0
+</dialer-packets-received>
+    <ppp-packets-received-from-pppd>
+0
+</ppp-packets-received-from-pppd>
+    <mpu-packets-received>
+0
+</mpu-packets-received>
+    <ppp-packets-received-from-jppd>
+0
+</ppp-packets-received-from-jppd>
+    <igmpl2-packets-received>
+0
+</igmpl2-packets-received>
+    <mldl2-packets-received>
+0
+</mldl2-packets-received>
+    <fibre-channel-packets-received>
+0
+</fibre-channel-packets-received>
+    <fip-packets-received>
+0
+</fip-packets-received>
+    <stp-packets-received>
+0
+</stp-packets-received>
+    <lacp-packets-received>
+0
+</lacp-packets-received>
+    <vccp-packets-received>
+0
+</vccp-packets-received>
+    <faboam-packets-received>
+0
+</faboam-packets-received>
+    <fibre-channel-packets-dropped>
+0
+</fibre-channel-packets-dropped>
+    <fip-packets-dropped>
+0
+</fip-packets-dropped>
+    <stp-packets-dropped>
+0
+</stp-packets-dropped>
+    <lacp-packets-dropped>
+0
+</lacp-packets-dropped>
+    <faboam-packets-dropped>
+0
+</faboam-packets-dropped>
+    <vccp-packets-dropped>
+0
+</vccp-packets-dropped>
+    <input-drops-due-to-bogus-protocol>
+0
+</input-drops-due-to-bogus-protocol>
+    <input-drops-due-to-no-mbufs-available>
+0
+</input-drops-due-to-no-mbufs-available>
+    <input-drops-due-to-no-space-in-socket>
+0
+</input-drops-due-to-no-space-in-socket>
+    <input-drops-due-to-no-socket>
+0
+</input-drops-due-to-no-socket>
+  </raw-interface>
+  <arp>
+    <datagrams-received>
+46692865
+</datagrams-received>
+    <arp-requests-received>
+20286
+</arp-requests-received>
+    <arp-replies-received>
+11872
+</arp-replies-received>
+    <resolution-request-received>
+47
+</resolution-request-received>
+    <resolution-request-dropped>
+0
+</resolution-request-dropped>
+    <unrestricted-proxy-requests>
+0
+</unrestricted-proxy-requests>
+    <restricted-proxy-requests>
+0
+</restricted-proxy-requests>
+    <received-proxy-requests>
+0
+</received-proxy-requests>
+    <proxy-requests-not-proxied>
+0
+</proxy-requests-not-proxied>
+    <restricted-proxy-requests-not-proxied>
+0
+</restricted-proxy-requests-not-proxied>
+    <datagrams-with-bogus-interface>
+0
+</datagrams-with-bogus-interface>
+    <datagrams-with-incorrect-length>
+0
+</datagrams-with-incorrect-length>
+    <datagrams-for-non-ip-protocol>
+0
+</datagrams-for-non-ip-protocol>
+    <datagrams-with-unsupported-opcode>
+0
+</datagrams-with-unsupported-opcode>
+    <datagrams-with-bad-protocol-address-length>
+0
+</datagrams-with-bad-protocol-address-length>
+    <datagrams-with-bad-hardware-address-length>
+0
+</datagrams-with-bad-hardware-address-length>
+    <datagrams-with-multicast-source-address>
+0
+</datagrams-with-multicast-source-address>
+    <datagrams-with-multicast-target-address>
+2
+</datagrams-with-multicast-target-address>
+    <datagrams-with-my-own-hardware-address>
+0
+</datagrams-with-my-own-hardware-address>
+    <datagrams-for-an-address-not-on-the-interface>
+12888048
+</datagrams-for-an-address-not-on-the-interface>
+    <datagrams-with-a-broadcast-source-address>
+0
+</datagrams-with-a-broadcast-source-address>
+    <datagrams-with-source-address-duplicate-to-mine>
+0
+</datagrams-with-source-address-duplicate-to-mine>
+    <datagrams-which-were-not-for-me>
+33772607
+</datagrams-which-were-not-for-me>
+    <packets-discarded-waiting-for-resolution>
+83462
+</packets-discarded-waiting-for-resolution>
+    <packets-sent-after-waiting-for-resolution>
+65
+</packets-sent-after-waiting-for-resolution>
+    <arp-requests-sent>
+97628
+</arp-requests-sent>
+    <arp-replies-sent>
+20286
+</arp-replies-sent>
+    <requests-for-memory-denied>
+0
+</requests-for-memory-denied>
+    <requests-dropped-on-entry>
+0
+</requests-dropped-on-entry>
+    <requests-dropped-during-retry>
+0
+</requests-dropped-during-retry>
+    <requests-dropped-due-to-interface-deletion>
+0
+</requests-dropped-due-to-interface-deletion>
+    <requests-on-unnumbered-interfaces>
+0
+</requests-on-unnumbered-interfaces>
+    <new-requests-on-unnumbered-interfaces>
+0
+</new-requests-on-unnumbered-interfaces>
+    <replies-from-unnumbered-interfaces>
+0
+</replies-from-unnumbered-interfaces>
+    <requests-on-unnumbered-interface-with-non-subnetted-donor>
+0
+</requests-on-unnumbered-interface-with-non-subnetted-donor>
+    <replies-from-unnumbered-interface-with-non-subnetted-donor>
+0
+</replies-from-unnumbered-interface-with-non-subnetted-donor>
+    <arp-packets-rejected-as-family-is-configured-with-deny-arp>
+0
+</arp-packets-rejected-as-family-is-configured-with-deny-arp>
+    <arp-response-packets-are-rejected-on-mace-icl-interface>
+0
+</arp-response-packets-are-rejected-on-mace-icl-interface>
+    <arp-replies-are-rejected-as-source-and-destination-is-same>
+50
+</arp-replies-are-rejected-as-source-and-destination-is-same>
+    <arp-probe-for-proxy-address-reachable-from-the-incoming-interface>
+0
+</arp-probe-for-proxy-address-reachable-from-the-incoming-interface>
+    <arp-request-discarded-for-vrrp-source-address>
+0
+</arp-request-discarded-for-vrrp-source-address>
+    <self-arp-request-packet-received-on-irb-interface>
+0
+</self-arp-request-packet-received-on-irb-interface>
+    <proxy-arp-request-discarded-as-source-ip-is-a-proxy-target>
+0
+</proxy-arp-request-discarded-as-source-ip-is-a-proxy-target>
+    <arp-packets-are-dropped-as-nexthop-allocation-failed>
+0
+</arp-packets-are-dropped-as-nexthop-allocation-failed>
+    <arp-packets-received-from-peer-vrrp-router-and-discarded>
+0
+</arp-packets-received-from-peer-vrrp-router-and-discarded>
+    <arp-packets-are-rejected-as-target-ip-arp-resolve-is-in-progress>
+0
+</arp-packets-are-rejected-as-target-ip-arp-resolve-is-in-progress>
+    <grat-arp-packets-are-ignored-as-mac-address-is-not-changed>
+0
+</grat-arp-packets-are-ignored-as-mac-address-is-not-changed>
+    <arp-packets-are-dropped-from-peer-vrrp>
+0
+</arp-packets-are-dropped-from-peer-vrrp>
+    <arp-packets-are-dropped-as-driver-call-failed>
+0
+</arp-packets-are-dropped-as-driver-call-failed>
+    <arp-packets-are-dropped-as-source-is-not-validated>
+0
+</arp-packets-are-dropped-as-source-is-not-validated>
+    <arp-system-max>
+75000
+</arp-system-max>
+    <arp-public-max>
+59840
+</arp-public-max>
+    <arp-iri-max>
+200
+</arp-iri-max>
+    <arp-mgt-max>
+14960
+</arp-mgt-max>
+    <arp-public-cnt>
+2
+</arp-public-cnt>
+    <arp-iri-cnt>
+4
+</arp-iri-cnt>
+    <arp-mgt-cnt>
+9
+</arp-mgt-cnt>
+    <arp-system-drop>
+0
+</arp-system-drop>
+    <arp-public-drop>
+0
+</arp-public-drop>
+    <arp-iri-drop>
+0
+</arp-iri-drop>
+    <arp-mgt-drop>
+0
+</arp-mgt-drop>
+  </arp>
+  <ip6>
+    <total-packets-received>
+8
+</total-packets-received>
+    <ip6-packets-with-size-smaller-than-minimum>
+0
+</ip6-packets-with-size-smaller-than-minimum>
+    <packets-with-datasize-less-than-data-length>
+0
+</packets-with-datasize-less-than-data-length>
+    <ip6-packets-with-bad-options>
+0
+</ip6-packets-with-bad-options>
+    <ip6-packets-with-incorrect-version-number>
+0
+</ip6-packets-with-incorrect-version-number>
+    <ip6-fragments-received>
+0
+</ip6-fragments-received>
+    <duplicate-or-out-of-space-fragments-dropped>
+0
+</duplicate-or-out-of-space-fragments-dropped>
+    <ip6-fragments-dropped-after-timeout>
+0
+</ip6-fragments-dropped-after-timeout>
+    <fragments-that-exceeded-limit>
+0
+</fragments-that-exceeded-limit>
+    <ip6-packets-reassembled-ok>
+0
+</ip6-packets-reassembled-ok>
+    <ip6-packets-for-this-host>
+70
+</ip6-packets-for-this-host>
+    <ip6-packets-forwarded>
+0
+</ip6-packets-forwarded>
+    <ip6-packets-not-forwardable>
+0
+</ip6-packets-not-forwardable>
+    <ip6-redirects-sent>
+0
+</ip6-redirects-sent>
+    <ip6-packets-sent-from-this-host>
+219349
+</ip6-packets-sent-from-this-host>
+    <ip6-packets-sent-with-fabricated-ip-header>
+218041
+</ip6-packets-sent-with-fabricated-ip-header>
+    <ip6-output-packets-dropped-due-to-no-bufs>
+0
+</ip6-output-packets-dropped-due-to-no-bufs>
+    <ip6-output-packets-discarded-due-to-no-route>
+0
+</ip6-output-packets-discarded-due-to-no-route>
+    <ip6-output-datagrams-fragmented>
+0
+</ip6-output-datagrams-fragmented>
+    <ip6-fragments-created>
+0
+</ip6-fragments-created>
+    <ip6-datagrams-that-can-not-be-fragmented>
+0
+</ip6-datagrams-that-can-not-be-fragmented>
+    <packets-that-violated-scope-rules>
+0
+</packets-that-violated-scope-rules>
+    <multicast-packets-which-we-do-not-join>
+0
+</multicast-packets-which-we-do-not-join>
+    <histogram>
+Input histogram:
+</histogram>
+    <ip6nh-icmp6>
+8
+</ip6nh-icmp6>
+    <packets-whose-headers-are-not-continuous>
+0
+</packets-whose-headers-are-not-continuous>
+    <tunneling-packets-that-can-not-find-gif>
+0
+</tunneling-packets-that-can-not-find-gif>
+    <packets-discarded-due-to-too-may-headers>
+0
+</packets-discarded-due-to-too-may-headers>
+    <failures-of-source-address-selection>
+0
+</failures-of-source-address-selection>
+    <header-type>
+      <header-for-source-address-selection>
+source addresses on an outgoing I/F
+</header-for-source-address-selection>
+      <link-locals>
+178
+</link-locals>
+      <globals>
+148
+</globals>
+    </header-type>
+    <header-type>
+      <header-for-source-address-selection>
+source addresses of same scope
+</header-for-source-address-selection>
+      <link-locals>
+178
+</link-locals>
+    </header-type>
+    <header-type>
+      <header-for-source-address-selection>
+source addresses of a different scope
+</header-for-source-address-selection>
+      <globals>
+148
+</globals>
+    </header-type>
+    <forward-cache-hit>
+0
+</forward-cache-hit>
+    <forward-cache-miss>
+0
+</forward-cache-miss>
+    <ip6-packets-destined-to-dead-next-hop>
+0
+</ip6-packets-destined-to-dead-next-hop>
+    <ip6-option-packets-dropped-due-to-rate-limit>
+0
+</ip6-option-packets-dropped-due-to-rate-limit>
+    <ip6-packets-dropped>
+0
+</ip6-packets-dropped>
+    <packets-dropped-due-to-bad-protocol>
+0
+</packets-dropped-due-to-bad-protocol>
+    <transit-re-packet-dropped-on-mgmt-interface>
+0
+</transit-re-packet-dropped-on-mgmt-interface>
+    <packets-used-first-nexthop-in-ecmp-unilist>
+0
+</packets-used-first-nexthop-in-ecmp-unilist>
+  </ip6>
+  <icmp6>
+    <protocol-name>
+icmp6:
+</protocol-name>
+    <calls-to-icmp6-error>
+0
+</calls-to-icmp6-error>
+    <errors-not-generated-because-old-message-was-icmp-error>
+0
+</errors-not-generated-because-old-message-was-icmp-error>
+    <errors-not-generated-because-rate-limitation>
+0
+</errors-not-generated-because-rate-limitation>
+    <output-histogram style="output">
+      <histogram-type>
+Output histogram:
+</histogram-type>
+      <multicast-listener-report>
+42
+</multicast-listener-report>
+      <multicast-listener-done>
+20
+</multicast-listener-done>
+      <neighbor-solicitation>
+982
+</neighbor-solicitation>
+      <neighbor-advertisement>
+326
+</neighbor-advertisement>
+    </output-histogram>
+    <icmp6-messages-with-bad-code-fields>
+0
+</icmp6-messages-with-bad-code-fields>
+    <messages-less-than-minimum-length>
+0
+</messages-less-than-minimum-length>
+    <bad-checksums>
+0
+</bad-checksums>
+    <icmp6-messages-with-bad-length>
+0
+</icmp6-messages-with-bad-length>
+    <input-histogram style="input">
+      <histogram-type>
+Input histogram:
+</histogram-type>
+      <multicast-listener-report>
+42
+</multicast-listener-report>
+      <multicast-listener-done>
+20
+</multicast-listener-done>
+      <neighbor-advertisement>
+8
+</neighbor-advertisement>
+    </input-histogram>
+    <histogram-of-error-messages-to-be-generated>
+Histogram of error messages to be generated:
+</histogram-of-error-messages-to-be-generated>
+    <no-route>
+0
+</no-route>
+    <administratively-prohibited>
+0
+</administratively-prohibited>
+    <beyond-scope>
+0
+</beyond-scope>
+    <address-unreachable>
+0
+</address-unreachable>
+    <port-unreachable>
+0
+</port-unreachable>
+    <packet-too-big>
+0
+</packet-too-big>
+    <time-exceed-transit>
+0
+</time-exceed-transit>
+    <time-exceed-reassembly>
+0
+</time-exceed-reassembly>
+    <erroneous-header-field>
+0
+</erroneous-header-field>
+    <unrecognized-next-header>
+0
+</unrecognized-next-header>
+    <unrecognized-option>
+0
+</unrecognized-option>
+    <redirect>
+0
+</redirect>
+    <unknown>
+0
+</unknown>
+    <icmp6-message-responses-generated>
+0
+</icmp6-message-responses-generated>
+    <messages-with-too-many-nd-options>
+0
+</messages-with-too-many-nd-options>
+    <nd-system-max>
+75000
+</nd-system-max>
+    <nd-public-max>
+59840
+</nd-public-max>
+    <nd-iri-max>
+200
+</nd-iri-max>
+    <nd-mgt-max>
+14960
+</nd-mgt-max>
+    <nd-public-cnt>
+0
+</nd-public-cnt>
+    <nd-iri-cnt>
+3
+</nd-iri-cnt>
+    <nd-mgt-cnt>
+0
+</nd-mgt-cnt>
+    <nd-system-drop>
+0
+</nd-system-drop>
+    <nd-public-drop>
+0
+</nd-public-drop>
+    <nd-iri-drop>
+0
+</nd-iri-drop>
+    <nd-mgt-drop>
+0
+</nd-mgt-drop>
+    <nd6-ndp-proxy-requests>
+0
+</nd6-ndp-proxy-requests>
+    <nd6-dad-proxy-requests>
+0
+</nd6-dad-proxy-requests>
+    <nd6-ndp-proxy-responses>
+0
+</nd6-ndp-proxy-responses>
+    <nd6-dad-proxy-conflicts>
+0
+</nd6-dad-proxy-conflicts>
+    <nd6-dup-proxy-responses>
+0
+</nd6-dup-proxy-responses>
+    <nd6-ndp-proxy-resolve-cnt>
+0
+</nd6-ndp-proxy-resolve-cnt>
+    <nd6-dad-proxy-resolve-cnt>
+0
+</nd6-dad-proxy-resolve-cnt>
+    <nd6-dad-proxy-eqmac-drop>
+0
+</nd6-dad-proxy-eqmac-drop>
+    <nd6-dad-proxy-nomac-drop>
+8
+</nd6-dad-proxy-nomac-drop>
+    <nd6-requests-dropped-on-entry>
+0
+</nd6-requests-dropped-on-entry>
+    <nd6-requests-dropped-during-retry>
+0
+</nd6-requests-dropped-during-retry>
+  </icmp6>
+  <pfkey>
+    <requests-sent-from-userland>
+248
+</requests-sent-from-userland>
+    <bytes-sent-from-userland>
+12896
+</bytes-sent-from-userland>
+    <output-histogram style="output">
+      <histogram>
+histogram by message type:
+</histogram>
+      <reserved>
+124
+</reserved>
+      <dump>
+124
+</dump>
+    </output-histogram>
+    <messages-with-invalid-length-field>
+0
+</messages-with-invalid-length-field>
+    <messages-with-invalid-version-field>
+0
+</messages-with-invalid-version-field>
+    <messages-with-invalid-message-type-field>
+0
+</messages-with-invalid-message-type-field>
+    <messages-too-short>
+0
+</messages-too-short>
+    <outgoing-messages-with-memory-allocation-failure>
+0
+</outgoing-messages-with-memory-allocation-failure>
+    <messages-with-duplicate-extension>
+0
+</messages-with-duplicate-extension>
+    <messages-with-invalid-extension-type>
+0
+</messages-with-invalid-extension-type>
+    <messages-with-invalid-sa-type>
+0
+</messages-with-invalid-sa-type>
+    <messages-with-invalid-address-extension>
+0
+</messages-with-invalid-address-extension>
+    <requests-sent-to-userland>
+248
+</requests-sent-to-userland>
+    <bytes-sent-to-userland>
+12896
+</bytes-sent-to-userland>
+    <input-histogram style="input">
+      <histogram>
+histogram by message type:
+</histogram>
+      <reserved>
+124
+</reserved>
+      <dump>
+124
+</dump>
+    </input-histogram>
+    <messages-toward-single-socket>
+492
+</messages-toward-single-socket>
+    <messages-toward-all-sockets>
+0
+</messages-toward-all-sockets>
+    <messages-toward-registered-sockets>
+0
+</messages-toward-registered-sockets>
+    <incoming-messages-with-memory-allocation-failure>
+0
+</incoming-messages-with-memory-allocation-failure>
+  </pfkey>
+  <clnl>
+    <total-clnl-packets-received>
+0
+</total-clnl-packets-received>
+    <packets-delivered>
+0
+</packets-delivered>
+    <too-small-packets>
+0
+</too-small-packets>
+    <packets-with-bad-header-length>
+0
+</packets-with-bad-header-length>
+    <packets-with-bad-checksum>
+0
+</packets-with-bad-checksum>
+    <bad-version-packets>
+0
+</bad-version-packets>
+    <unknown-or-unsupported-protocol-packets>
+0
+</unknown-or-unsupported-protocol-packets>
+    <packets-with-bogus-sdl-size>
+0
+</packets-with-bogus-sdl-size>
+    <no-free-memory-in-socket-buffer>
+0
+</no-free-memory-in-socket-buffer>
+    <send-packets-discarded>
+0
+</send-packets-discarded>
+    <sbappend-failure>
+0
+</sbappend-failure>
+    <mcopy-failure>
+0
+</mcopy-failure>
+    <address-fields-were-not-reasonable>
+0
+</address-fields-were-not-reasonable>
+    <segment-information-forgotten>
+0
+</segment-information-forgotten>
+    <forwarded-packets>
+0
+</forwarded-packets>
+    <total-packets-sent>
+0
+</total-packets-sent>
+    <output-packets-discarded>
+0
+</output-packets-discarded>
+    <non-forwarded-packets>
+0
+</non-forwarded-packets>
+    <packets-fragmented>
+0
+</packets-fragmented>
+    <fragments-sent>
+0
+</fragments-sent>
+    <fragments-discarded>
+0
+</fragments-discarded>
+    <fragments-timed-out>
+0
+</fragments-timed-out>
+    <fragmentation-prohibited>
+0
+</fragmentation-prohibited>
+    <packets-reconstructed>
+0
+</packets-reconstructed>
+    <packets-destined-to-dead-nexthop>
+0
+</packets-destined-to-dead-nexthop>
+    <packets-discarded-due-to-no-route>
+0
+</packets-discarded-due-to-no-route>
+    <error-pdu-rate-drops>
+0
+</error-pdu-rate-drops>
+    <er-pdu-generation-failure>
+0
+</er-pdu-generation-failure>
+  </clnl>
+  <esis>
+    <total-esis-packets-received>
+0
+</total-esis-packets-received>
+    <total-packets-consumed-by-protocol>
+0
+</total-packets-consumed-by-protocol>
+    <pdus-received-with-bad-checksum>
+0
+</pdus-received-with-bad-checksum>
+    <pdus-received-with-bad-version-number>
+0
+</pdus-received-with-bad-version-number>
+    <pdus-received-with-bad-type-field>
+0
+</pdus-received-with-bad-type-field>
+    <short-pdus-received>
+0
+</short-pdus-received>
+    <pdus-with-bogus-sdl-size>
+0
+</pdus-with-bogus-sdl-size>
+    <pdus-with-bad-header-length>
+0
+</pdus-with-bad-header-length>
+    <pdus-with-unknown-or-unsupport-protocol>
+0
+</pdus-with-unknown-or-unsupport-protocol>
+    <no-free-memory-in-socket-buffer>
+0
+</no-free-memory-in-socket-buffer>
+    <send-packets-discarded>
+0
+</send-packets-discarded>
+    <sbappend-failure>
+0
+</sbappend-failure>
+    <mcopy-failure>
+0
+</mcopy-failure>
+    <iso-family-not-configured>
+0
+</iso-family-not-configured>
+  </esis>
+  <tnp>
+    <unicast-packets-received>
+7472938
+</unicast-packets-received>
+    <broadcast-packets-received>
+12185389
+</broadcast-packets-received>
+    <fragmented-packets-received>
+1219286
+</fragmented-packets-received>
+    <received-hello-packets-dropped>
+0
+</received-hello-packets-dropped>
+    <received-fragments-dropped>
+1
+</received-fragments-dropped>
+    <fragment-reassembly-queue-flushes>
+1
+</fragment-reassembly-queue-flushes>
+    <packets-with-tnp-src-address-collision-received>
+0
+</packets-with-tnp-src-address-collision-received>
+    <hello-packets-received>
+12185382
+</hello-packets-received>
+    <control-packets-received>
+0
+</control-packets-received>
+    <rdp-packets-received>
+84012
+</rdp-packets-received>
+    <udp-packets-received>
+7388933
+</udp-packets-received>
+    <tunnel-packets-received>
+0
+</tunnel-packets-received>
+    <input-packets-discarded-with-no-protocol>
+0
+</input-packets-discarded-with-no-protocol>
+    <packets-of-version-unspecified-received>
+0
+</packets-of-version-unspecified-received>
+    <packets-of-version1-received>
+0
+</packets-of-version1-received>
+    <packets-of-version2-received>
+0
+</packets-of-version2-received>
+    <packets-of-version3-received>
+19658327
+</packets-of-version3-received>
+    <unicast-packets-sent>
+6539905
+</unicast-packets-sent>
+    <broadcast-packets-sent>
+6102290
+</broadcast-packets-sent>
+    <fragmented-packets-sent>
+1
+</fragmented-packets-sent>
+    <sent-hello-packets-dropped>
+0
+</sent-hello-packets-dropped>
+    <sent-fragments-dropped>
+0
+</sent-fragments-dropped>
+    <hello-packets-sent>
+6102290
+</hello-packets-sent>
+    <control-packets-sent>
+0
+</control-packets-sent>
+    <rdp-packets-sent>
+84930
+</rdp-packets-sent>
+    <udp-packets-sent>
+6454975
+</udp-packets-sent>
+    <tunnel-packets-sent>
+0
+</tunnel-packets-sent>
+    <packets-sent-with-unknown-protocol>
+0
+</packets-sent-with-unknown-protocol>
+    <packets-of-version-unspecified-sent>
+0
+</packets-of-version-unspecified-sent>
+    <packets-of-version1-sent>
+0
+</packets-of-version1-sent>
+    <packets-of-version2-sent>
+0
+</packets-of-version2-sent>
+    <packets-of-version3-sent>
+12642195
+</packets-of-version3-sent>
+  </tnp>
+  <rdp>
+    <input-packets>
+84012
+</input-packets>
+    <packets-discarded-for-bad-checksum>
+0
+</packets-discarded-for-bad-checksum>
+    <packets-discarded-due-to-bad-sequence-number>
+0
+</packets-discarded-due-to-bad-sequence-number>
+    <refused-connections>
+0
+</refused-connections>
+    <acks-received>
+82732
+</acks-received>
+    <packets-dropped-due-to-full-socket-buffers>
+0
+</packets-dropped-due-to-full-socket-buffers>
+    <packets-dropped-full-repl-sock-buf>
+0
+</packets-dropped-full-repl-sock-buf>
+    <retransmits>
+761
+</retransmits>
+    <output-packets>
+84930
+</output-packets>
+    <acks-sent>
+1001
+</acks-sent>
+    <connects>
+244
+</connects>
+    <closes>
+101
+</closes>
+    <keepalives-received>
+6
+</keepalives-received>
+    <keepalives-sent>
+49
+</keepalives-sent>
+  </rdp>
+  <tudp>
+    <datagrams-received>
+6474469
+</datagrams-received>
+    <datagrams-with-incomplete-header>
+0
+</datagrams-with-incomplete-header>
+    <datagrams-with-bad-data-length-field>
+0
+</datagrams-with-bad-data-length-field>
+    <datagrams-with-bad-checksum>
+0
+</datagrams-with-bad-checksum>
+    <datagrams-dropped-due-to-no-socket>
+0
+</datagrams-dropped-due-to-no-socket>
+    <broadcast-or-multicast-datagrams-dropped-due-to-no-socket>
+0
+</broadcast-or-multicast-datagrams-dropped-due-to-no-socket>
+    <datagrams-dropped-due-to-full-socket-buffers>
+0
+</datagrams-dropped-due-to-full-socket-buffers>
+    <delivered>
+6474469
+</delivered>
+    <datagrams-output>
+6454979
+</datagrams-output>
+  </tudp>
+  <ttp>
+    <ttp-packets-sent>
+2152614
+</ttp-packets-sent>
+    <packets-sent-while-unconnected>
+0
+</packets-sent-while-unconnected>
+    <packets-sent-while-interface-down>
+0
+</packets-sent-while-interface-down>
+    <packets-sent-could-not-get-buffer>
+0
+</packets-sent-could-not-get-buffer>
+    <packets-sent-could-not-find-neighbor>
+0
+</packets-sent-could-not-find-neighbor>
+    <packets-sent-when-transmit-disabled>
+0
+</packets-sent-when-transmit-disabled>
+    <packets-sent-when-host_unreachable>
+0
+</packets-sent-when-host_unreachable>
+    <l3-packets-sent-could-not-get-buffer>
+0
+</l3-packets-sent-could-not-get-buffer>
+    <l3-packets-dropped>
+0
+</l3-packets-dropped>
+    <packets-sent-with-bad-ifl>
+0
+</packets-sent-with-bad-ifl>
+    <packets-sent-with-bad-af>
+0
+</packets-sent-with-bad-af>
+    <l2-packets-received>
+4134
+</l2-packets-received>
+    <unknown-l3-packets-received>
+0
+</unknown-l3-packets-received>
+    <ipv4-l3-packets-received>
+1876064
+</ipv4-l3-packets-received>
+    <mpls-l3-packets-received>
+0
+</mpls-l3-packets-received>
+    <mpls-to-ipv4-l3-packets-received>
+0
+</mpls-to-ipv4-l3-packets-received>
+    <ipv4-to-mpls-l3-packets-received>
+18184
+</ipv4-to-mpls-l3-packets-received>
+    <vpls-l3-packets-received>
+0
+</vpls-l3-packets-received>
+    <ipv6-l3-packets-received>
+6
+</ipv6-l3-packets-received>
+    <arp-l3-packets-received>
+0
+</arp-l3-packets-received>
+    <clnp-l3-packets-received>
+0
+</clnp-l3-packets-received>
+    <tnp-l3-packets-received>
+0
+</tnp-l3-packets-received>
+    <null-l3-packets-received>
+0
+</null-l3-packets-received>
+    <cyclotron-cycle-l3-packets-received>
+0
+</cyclotron-cycle-l3-packets-received>
+    <cyclotron-send-l3-packets-received>
+0
+</cyclotron-send-l3-packets-received>
+    <openflow-packets-received>
+0
+</openflow-packets-received>
+    <packets-received-while-unconnected>
+0
+</packets-received-while-unconnected>
+    <packets-received-from-unknown-ifl>
+1
+</packets-received-from-unknown-ifl>
+    <input-packets-could-not-get-buffer>
+0
+</input-packets-could-not-get-buffer>
+    <input-packets-with-bad-type>
+0
+</input-packets-with-bad-type>
+    <input-packets-with-discard-type>
+0
+</input-packets-with-discard-type>
+    <input-packets-with-too-many-tlvs>
+0
+</input-packets-with-too-many-tlvs>
+    <input-packets-with-bad-tlv-header>
+0
+</input-packets-with-bad-tlv-header>
+    <input-packets-with-bad-tlv-type>
+0
+</input-packets-with-bad-tlv-type>
+    <input-packets-tlv-dropped>
+0
+</input-packets-tlv-dropped>
+    <input-packets-with-bad-af>
+0
+</input-packets-with-bad-af>
+    <input-packets-for-which-route-lookup-is-bypassed>
+0
+</input-packets-for-which-route-lookup-is-bypassed>
+    <input-packets-with-ttp-tlv-p2mp-nbr-nhid-type>
+0
+</input-packets-with-ttp-tlv-p2mp-nbr-nhid-type>
+    <input-packets-with-unknown-p2mp-nbr-nhid>
+0
+</input-packets-with-unknown-p2mp-nbr-nhid>
+    <input-packets-with-vxlan-bfd-pkts>
+0
+</input-packets-with-vxlan-bfd-pkts>
+  </ttp>
+  <mpls>
+    <total-mpls-packets-received>
+18184
+</total-mpls-packets-received>
+    <packets-forwarded>
+37729
+</packets-forwarded>
+    <packets-dropped>
+0
+</packets-dropped>
+    <packets-with-header-too-small>
+0
+</packets-with-header-too-small>
+    <after-tagging-packets-can-not-fit-link-mtu>
+0
+</after-tagging-packets-can-not-fit-link-mtu>
+    <packets-with-ipv4-explicit-null-tag>
+0
+</packets-with-ipv4-explicit-null-tag>
+    <packets-with-ipv4-explicit-null-checksum-errors>
+0
+</packets-with-ipv4-explicit-null-checksum-errors>
+    <packets-with-router-alert-tag>
+0
+</packets-with-router-alert-tag>
+    <lsp-ping-packets>
+0
+</lsp-ping-packets>
+    <packets-with-ttl-expired>
+18001
+</packets-with-ttl-expired>
+    <packets-with-tag-encoding-error>
+0
+</packets-with-tag-encoding-error>
+    <packets-discarded-due-to-no-route>
+0
+</packets-discarded-due-to-no-route>
+    <packets-used-first-nexthop-in-ecmp-unilist>
+0
+</packets-used-first-nexthop-in-ecmp-unilist>
+    <packets-dropped-due-to-ifl-down>
+0
+</packets-dropped-due-to-ifl-down>
+    <packets-dropped-at-mpls-socket-send>
+0
+</packets-dropped-at-mpls-socket-send>
+    <packets-forwarded-at-mpls-socket-send>
+0
+</packets-forwarded-at-mpls-socket-send>
+    <packets-dropped-at-p2mp-cnh-output>
+0
+</packets-dropped-at-p2mp-cnh-output>
+  </mpls>
+  <ethoamlfm>
+    <total-packets-received>
+0
+</total-packets-received>
+    <input-packets-drop-bad-interface-state>
+0
+</input-packets-drop-bad-interface-state>
+    <received-packets-forwarded>
+0
+</received-packets-forwarded>
+    <total-packets-transmitted>
+0
+</total-packets-transmitted>
+    <packets-sent>
+0
+</packets-sent>
+    <output-packets-drop-bad-interface-state>
+0
+</output-packets-drop-bad-interface-state>
+  </ethoamlfm>
+  <ethoamcfm>
+    <total-packets-received>
+0
+</total-packets-received>
+    <input-packets-drop-bad-interface-state>
+0
+</input-packets-drop-bad-interface-state>
+    <received-packets-forwarded>
+0
+</received-packets-forwarded>
+    <total-packets-transmitted>
+0
+</total-packets-transmitted>
+    <packets-sent>
+0
+</packets-sent>
+    <output-packets-drop-bad-interface-state>
+0
+</output-packets-drop-bad-interface-state>
+    <flood-requests-forwarded-to-pfe>
+0
+</flood-requests-forwarded-to-pfe>
+    <flood-requests-dropped>
+0
+</flood-requests-dropped>
+  </ethoamcfm>
+</statistics>
+
