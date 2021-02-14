@@ -30,7 +30,11 @@ diff_list = list(ddiff)
 print("====================")
 for item in diff_list:
 #    pprint(item)
-    print(item[1] + " : " + str(int(item[2][1]) - int(item[2][0])))
+    if "timeout" and "duplicate" in item[1]:
+        print("\033[44m" + item[1] + '\033[0m' + " : " + str(int(item[2][1]) - int(item[2][0])))
+    else:
+        print(item[1] + " : " + str(int(item[2][1]) - int(item[2][0])))
+
 
 #ddiff = DeepDiff(result1, result2)
 #pprint(ddiff)
